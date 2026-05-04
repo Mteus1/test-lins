@@ -2,8 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/claro/(.*)",
-      "destination": "https://p.famlinsnet.site:8443/claro/$1"
+      "source": "/(.*)",
+      "destination": "https://p.famlinsnet.site:8443/$1"
     }
   ]
 }
